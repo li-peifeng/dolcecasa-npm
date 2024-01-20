@@ -36,15 +36,15 @@
 
                 <div class="col-sm-12 col-md-12 option-item option-redirect">
                     <div class="form-group">
-                        <div class="form-label">Redirect to</div>
+                        <div class="form-label">转向到：</div>
                         <input class="form-control redirect-input" name="meta[redirect]" placeholder="https://" type="url" value="<%- meta && typeof meta.redirect !== 'undefined' ? meta.redirect : '' %>">
                     </div>
                 </div>
 
                 <div class="col-sm-12 col-md-12 option-item option-html">
                     <div class="form-group">
-                        <div class="form-label">HTML Content</div>
-                        <textarea class="form-control text-monospace html-content" name="meta[html]" rows="6" placeholder="<!-- Enter your HTML here -->"><%- meta && typeof meta.html !== 'undefined' ? meta.html : '' %></textarea>
+                        <div class="form-label">HTML 内容</div>
+                        <textarea class="form-control text-monospace html-content" name="meta[html]" rows="6" placeholder="<!-- 在这里输入您的HTML内容 -->"><%- meta && typeof meta.html !== 'undefined' ? meta.html : '' %></textarea>
                     </div>
                 </div>
             </div>
