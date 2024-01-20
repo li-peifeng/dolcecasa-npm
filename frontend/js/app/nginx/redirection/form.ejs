@@ -26,7 +26,7 @@
                             <div class="form-group">
                                 <label class="form-label"><%- i18n('redirection-hosts', 'forward-scheme') %><span class="form-required">*</span></label>
                                 <select name="forward_scheme" class="form-control custom-select" placeholder="$scheme">
-                                    <option value="$scheme" <%- forward_scheme === '$scheme' ? 'selected' : '' %>>auto</option>
+                                    <option value="$scheme" <%- forward_scheme === '$scheme' ? 'selected' : '' %>>自动</option>
                                     <option value="http" <%- forward_scheme === 'http' ? 'selected' : '' %>>http</option>
                                     <option value="https" <%- forward_scheme === 'https' ? 'selected' : '' %>>https</option>
                                 </select>
