@@ -563,6 +563,7 @@
       "redirection-host": "域名转向",
       "dead-host": "错误页面",
       "stream": "端口转发",
+      "user": "用户”,
       "certificate": "SSL证书",
       "access-list": "访问规则",
       "created": "创建 {name}",
