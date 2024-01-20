@@ -559,7 +559,7 @@
       "title": "系统日志",
       "empty": "目前还没有日志。",
       "empty-subtitle": "只要你或其他用户修改了什么，这些历史就会在这里显示出来。",
-      "proxy-host": "主机代理",
+      "proxy-host": "代理主机",
       "redirection-host": "域名转向",
       "dead-host": "错误页面",
       "stream": "端口转发",
