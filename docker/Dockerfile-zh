@@ -15,7 +15,7 @@ ENTRYPOINT [ "/init" ]
 
 LABEL org.label-schema.schema-version="1.0" \
 	org.label-schema.license="MIT" \
-	org.label-schema.name="nginx-proxy-manager-cn" \
+	org.label-schema.name="npm-cn" \
 	org.label-schema.description="Docker container for managing Nginx proxy hosts with a simple, powerful interface, chinese UI Version" \
 	org.label-schema.url="https://github.com/li-peifeng/npm-cn" \
 	org.label-schema.vcs-url="https://github.com/li-peifeng/npm-cn.git" \
