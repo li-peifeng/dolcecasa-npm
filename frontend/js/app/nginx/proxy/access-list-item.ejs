@@ -3,7 +3,7 @@
         <div class="title">
             <i class="fe fe-lock text-teal"></i> <%- name %>
         </div>
-        <span class="description"><%- i18n('access-lists', 'item-count', {count: items.length || 0}) %>, <%- i18n('access-lists', 'client-count', {count: clients.length || 0}) %> &ndash; 创建于: <%- formatDbDate(created_on, 'YYYY-MM-DD') %></span>
+        <span class="description"><%- i18n('access-lists', 'item-count', {count: items.length || 0}) %>, <%- i18n('access-lists', 'client-count', {count: clients.length || 0}) %> &ndash; 创建于: <%- formatDbDate(created_on, 'YYYY-MM-DD HH:MM') %></span>
     <% } else { %>
         <div class="title">
             <i class="fe fe-unlock text-yellow"></i> <%- i18n('access-lists', 'public') %>
