@@ -19,4 +19,4 @@ LABEL org.label-schema.schema-version="1.0" \
 	org.label-schema.description="Docker container for managing Nginx proxy hosts with a simple, powerful interface, chinese UI Version" \
 	org.label-schema.url="https://github.com/li-peifeng/npm-cn" \
 	org.label-schema.vcs-url="https://github.com/li-peifeng/npm-cn.git" \
-	org.label-schema.cmd="docker run --rm -ti leolitaly/npm-cn:dev"
+	org.label-schema.cmd="docker run --rm -ti leolitaly/npm-cn:latest"
