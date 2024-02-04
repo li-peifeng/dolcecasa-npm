@@ -359,7 +359,7 @@
       "translate": ""
     },
     "dashboard": {
-      "title": "{name}么么哒！"
+      "title": "{name}，么么哒！"
     },
     "all-hosts": {
       "empty-subtitle": "{manage, select, true{立即来创建一个吧？} other{您目前没有权限创建。}}",
