@@ -1,0 +1,235 @@
+@media (prefers-color-scheme: dark) {
+  $textColor: #b3b3b3;
+  $backColor: #111721;
+  $backColor2: #1a2332;
+  $linkNormal: #1cb09a;
+  $linkHover: #199a87;
+  $danger: #5e0202;
+  $saveButton: #036003;
+
+  body,
+  .my-3.my-md-5 {
+    background-color: $backColor;
+    color: $textColor !important;
+  }
+
+  .text-default {
+    color: $textColor !important;
+  }
+
+  .app-content,
+  .card,
+  .header,
+  .footer {
+    background-color: $backColor2;
+  }
+
+  td {
+    color: $textColor;
+  }
+
+  .tag {
+    background-color: $backColor;
+    color: $textColor;
+  }
+
+  .dropdown-menu {
+    background-color: $backColor;
+  }
+
+  .dropdown-item {
+    color: $textColor;
+  }
+
+  .nav-item.show .nav-link {
+    background-color: $backColor !important;
+    color: $textColor !important;
+  }
+
+  .dropdown-item:hover {
+    background-color: $backColor2;
+    color: $textColor;
+  }
+
+  .btn-secondary {
+    background-color: $linkNormal;
+    color: #fff;
+  }
+  .btn-secondary:hover {
+    background-color: $linkHover;
+    color: #fff;
+  }
+
+  .modal-content {
+    background-color: $backColor2;
+  }
+
+  .selectize-input,
+  .form-control,
+  .custom-file-label {
+    background-color: $backColor !important;
+    color: $textColor !important;
+  }
+
+  .selectize-control.multi .selectize-input > div {
+    background-color: $linkHover !important;
+    color: #fff !important;
+  }
+
+  .selectize-control.single .selectize-input:after {
+    background: none;
+  }
+
+  span,
+  li,
+  .form-label,
+  p,
+  .modal-title,
+  small {
+    color: $textColor !important;
+  }
+
+  .btn.cancel,
+  .btn.cancel:active {
+    background-color: $danger !important;
+    color: $textColor !important;
+  }
+
+  .btn.save,
+  .btn.save:active {
+    background-color: $saveButton !important;
+    color: $textColor !important;
+    border: none;
+  }
+
+  .selectize-dropdown-content .selected {
+    background-color: #0a0f17;
+    color: $textColor !important;
+  }
+
+  .selectize-dropdown-content .active {
+    background-color: $backColor2;
+    color: $textColor !important;
+  }
+
+  .nav-tabs,
+  .modal-header {
+    border-bottom: 1px solid $backColor;
+  }
+
+  .modal-footer {
+    border-top: 1px solid $backColor;
+  }
+
+  .table th,
+  .text-wrap table th,
+  .table td,
+  .text-wrap table td {
+    border-top: 1px solid $backColor;
+  }
+
+  .table thead th,
+  .text-wrap table thead th {
+    border-bottom: 1px solid $backColor;
+  }
+
+  .dropdown-divider {
+    border-top: 1px solid $backColor2;
+  }
+
+  .btn-outline-secondary:hover i {
+    color: black;
+  }
+
+  .btn-outline-success:hover {
+    color: white !important;
+  }
+
+  .dns-challenge {
+    background-color: $backColor;
+    border: none;
+  }
+
+  .dns-challenge .form-control {
+    background-color: $backColor2 !important;
+  }
+
+  .custom-file-label:after {
+    background-color: $backColor2 !important;
+    color: $textColor !important;
+  }
+
+  .stamp i,
+  .tag-addon {
+    color: black !important;
+  }
+
+  .tag.hover-green:hover,
+  .tag.hover-green:active,
+  .tag.hover-green:focus,
+  .hover-pink:hover {
+    color: white !important;
+  }
+
+  pre {
+    background-color: $backColor !important;
+    text-shadow: none;
+    color: $textColor !important;
+  }
+
+  .tag.hover-yellow:hover,
+  .tag.hover-yellow:active,
+  .tag.hover-yellow:focus {
+    color: black !important;
+  }
+
+  .custom-control-label,
+  .selectize-dropdown,
+  .selectize-input,
+  .selectize-input input {
+    color: $textColor !important;
+  }
+
+  .custom-control-label:before {
+    background-color: $backColor;
+  }
+
+  .dropdown-menu-arrow:before,
+  .dropdown-menu-arrow:after {
+    display: none !important;
+  }
+
+  .selectgroup-button {
+    background-color: $backColor;
+  }
+
+  .selectgroup-input:checked + .selectgroup-button {
+    background-color: $linkHover;
+    color: white !important;
+  }
+
+  .custom-switch-indicator {
+    background-color: $backColor;
+  }
+
+  .close:before {
+    color: $textColor;
+  }
+
+  .alert-secondary {
+    background-color: $backColor;
+    border: none;
+    color: $textColor;
+  }
+
+  .alert-danger {
+    background-color: $danger !important;
+    color: $textColor !important;
+    border: none;
+  }
+
+  .input-group-text {
+    background-color: $linkHover;
+    color: white !important;
+  }
+}
