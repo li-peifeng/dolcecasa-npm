@@ -246,4 +246,8 @@
     border-color: none;
     color: $textColor !important;
   }
+
+  .navbar-light .navbar-toggler-icon {
+    color: $textColor !important;
+  }
 }
