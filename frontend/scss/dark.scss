@@ -232,4 +232,18 @@
     background-color: $linkHover;
     color: white !important;
   }
+
+  .navbar-light .navbar-brand {
+    color: $textColor !important;
+  }
+
+  .navbar-light .navbar-brand:hover,
+  .navbar-light .navbar-brand:focus {
+    color: $textColor !important;
+  }
+
+  .nav-tabs .nav-link:hover:not(.disabled) {
+    border-color: none;
+    color: $textColor !important;
+  }
 }
