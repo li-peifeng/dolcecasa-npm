@@ -26,7 +26,7 @@
                             <div class="form-group">
                                 <label class="form-label"><%- i18n('redirection-hosts', 'forward-scheme') %><span class="form-required">*</span></label>
                                 <select name="forward_scheme" class="form-control custom-select" placeholder="$scheme">
-                                    <option value="$scheme" <%- forward_scheme === '$scheme' ? 'selected' : '' %>>auto</option>
+                                    <option value="$scheme" <%- forward_scheme === '$scheme' ? 'selected' : '' %>>自动</option>
                                     <option value="http" <%- forward_scheme === 'http' ? 'selected' : '' %>>http</option>
                                     <option value="https" <%- forward_scheme === 'https' ? 'selected' : '' %>>https</option>
                                 </select>
@@ -42,12 +42,12 @@
                             <div class="form-group">
                                 <label class="form-label"><%- i18n('redirection-hosts', 'forward-http-status-code') %><span class="form-required">*</span></label>
                                 <select name="forward_http_code" class="form-control custom-select" placeholder="301">
-                                    <option value="300" <%- forward_http_code == '300' ? 'selected' : '' %>>300 Multiple choices</option>
-                                    <option value="301" <%- forward_http_code == '301' ? 'selected' : '' %>>301 Moved permanently</option>
-                                    <option value="302" <%- forward_http_code == '302' ? 'selected' : '' %>>302 Found</option>
-                                    <option value="303" <%- forward_http_code == '303' ? 'selected' : '' %>>303 See other</option>
-                                    <option value="307" <%- forward_http_code == '307' ? 'selected' : '' %>>307 Temporary redirect</option>
-                                    <option value="308" <%- forward_http_code == '308' ? 'selected' : '' %>>308 Permanent redirect</option>
+                                    <option value="300" <%- forward_http_code == '300' ? 'selected' : '' %>>300 多种选择</option>
+                                    <option value="301" <%- forward_http_code == '301' ? 'selected' : '' %>>301 永久移动</option>
+                                    <option value="302" <%- forward_http_code == '302' ? 'selected' : '' %>>302 临时移动</option>
+                                    <option value="303" <%- forward_http_code == '303' ? 'selected' : '' %>>303 转向</option>
+                                    <option value="307" <%- forward_http_code == '307' ? 'selected' : '' %>>307 临时转向</option>
+                                    <option value="308" <%- forward_http_code == '308' ? 'selected' : '' %>>308 永久转向</option>
                                 </select>
                             </div>
                         </div>
