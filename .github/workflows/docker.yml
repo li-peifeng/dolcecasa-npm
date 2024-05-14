@@ -1,12 +1,12 @@
 name: GitHub Actions Docker Buildx
 on:
- workflow_dispatch:
- push:
-  branches:
-   - 'develop-zh'
-   - 'zh-v[1-9].[0-9]+.[0-9]+'
- release:
-   types: [published]
+  workflow_dispatch:
+  push:
+    branches:
+      - "develop-zh"
+      - "zh-v[1-9].[0-9]+.[0-9]+"
+  release:
+    types: [published]
 jobs:
   Docker-Buildx:
     runs-on: ubuntu-latest
@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v3
       - name: 添加Build环境变量
         run: |
-          echo "BUILD_IMAGE=leolitaly/sweet-manager" >> $GITHUB_ENV
+          echo "BUILD_IMAGE=leolitaly/Sweet-Manager" >> $GITHUB_ENV
           echo "BUILD_PLATFORM=linux/amd64,linux/arm64,linux/arm/7" >> $GITHUB_ENV
           echo "BUILD_VERSION=$(cat .version)" >> $GITHUB_ENV
       - name: 添加BuildTag环境变量（release）
