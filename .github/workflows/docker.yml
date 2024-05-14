@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v3
       - name: 添加Build环境变量
         run: |
-          echo "BUILD_IMAGE=leolitaly/npm-cn" >> $GITHUB_ENV
+          echo "BUILD_IMAGE=leolitaly/sweet-manager" >> $GITHUB_ENV
           echo "BUILD_PLATFORM=linux/amd64,linux/arm64,linux/arm/7" >> $GITHUB_ENV
           echo "BUILD_VERSION=$(cat .version)" >> $GITHUB_ENV
       - name: 添加BuildTag环境变量（release）
