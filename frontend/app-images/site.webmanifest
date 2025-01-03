@@ -3,12 +3,12 @@
     "short_name": "甜蜜管理",
     "icons": [
         {
-            "src": "/images/favicons/android-chrome-192x192.png",
+            "src": "/images/192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/images/favicons/android-chrome-512x512.png",
+            "src": "/images/512.png",
             "sizes": "512x512",
             "type": "image/png"
         }
