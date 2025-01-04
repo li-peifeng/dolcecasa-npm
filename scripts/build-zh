@@ -5,4 +5,4 @@ DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 cd "${DIR}/../.."
 
-docker build -t leolitaly/sweet-manager:latest -f docker/Dockerfile-zh .
+docker build -t leolitaly/imanager:latest -f docker/Dockerfile-zh .

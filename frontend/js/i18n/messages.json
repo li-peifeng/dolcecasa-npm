@@ -335,9 +335,9 @@
       "title": "亲爱的主人，你回来啦！"
     },
     "main": {
-      "app": "甜蜜管理",
+      "app": "iManager",
       "version": "v{version}",
-      "welcome": "欢迎来到甜蜜管理",
+      "welcome": "欢迎来到 iManager",
       "logged-in": "您的登录身份是 {name}",
       "unknown-error": "加载出错，请重新加载应用程序。",
       "unknown-user": "未知用户",
@@ -355,7 +355,7 @@
     "footer": {
       "fork-me": "",
       "copy": "· PeiFeng.Li ",
-      "theme": " · &copy; 2001-2024",
+      "theme": " · &copy; 2025",
       "translate": ""
     },
     "dashboard": {
