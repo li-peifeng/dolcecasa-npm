@@ -1,5 +1,7 @@
 <td class="text-center">
-    <div class="avatar d-block" style="background-image: url(<%- (owner && owner.avatar) || '/images/default-avatar.jpg' %>)" title="Owned by <%- (owner && owner.name) || 'a deleted user' %>">
+    <div class="avatar d-block"
+        style="background-image: url(<%- (owner && owner.avatar) || '/images/default-avatar.png' %>)"
+        title="Owned by <%- (owner && owner.name) || 'a deleted user' %>">
         <span class="avatar-status <%- owner && !owner.is_disabled ? 'bg-green' : 'bg-red' %>"></span>
     </div>
 </td>
